@@ -1,0 +1,5 @@
+module CLeveldb [system] {
+	header "shim.h"
+	link "leveldb"
+	export *
+}
